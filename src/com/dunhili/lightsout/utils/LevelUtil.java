@@ -1,9 +1,11 @@
 package com.dunhili.lightsout.utils;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileOutputStream;
-import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -40,23 +42,30 @@ public class LevelUtil {
 	 * @return list of levels located in the file with the given file name
 	 */
 	public static List<Level> readLevelsFromFile(String fileName) {
+		if (log.isTraceEnabled()) {
+			log.trace("readLevelsFromFile(" + fileName + ")");
+		}
 		List<Level> levels = new ArrayList<Level>();
 		
 		BufferedReader fileReader = null;
         try {
-        	fileReader = new BufferedReader(new FileReader(fileName));
+        	log.info("Reading in levels...");
+        	InputStream in = LevelUtil.class.getResourceAsStream("resources" + File.separator + fileName); 
+        	fileReader = new BufferedReader(new InputStreamReader(in));
             String line;
             while ((line = fileReader.readLine()) != null) {
             	levels.add(createLevelFromString(line));
             }
+            log.info("Done reading levels.");
 		} catch (IOException e) {
-			log.error(e, e);
+			log.error("Error while opening or reading file : ", e);
 		} finally {
 			if (fileReader != null) {
 		        try {
 		        	fileReader.close();
+		        	log.info("Reader closed successfully.");
 				} catch (IOException e) {
-					log.error(e, e);
+					log.error("Error while closing reader : ", e);
 				}
 			}
 		}
@@ -78,10 +87,14 @@ public class LevelUtil {
 	 * @param fileName name of the file to save the levels to
 	 */
 	public static void saveLevels(List<Level> levels, String fileName) {
+		if (log.isTraceEnabled()) {
+			log.trace("saveLevels(" + fileName + ")");
+		}
 		FileOutputStream out = null;
         try {
     		// write the new String with the replaced line OVER the same file
-            out = new FileOutputStream(fileName);
+            out = new FileOutputStream("resources" + File.separator + fileName);
+            log.info("Output file opened.");
             StringBuilder builder = new StringBuilder();
             for (Level level : levels) {
             	builder.append(level.getIdealNumberOfMoves() + " " + 
@@ -89,18 +102,36 @@ public class LevelUtil {
             				   level.getCompressedLayout() + "\n");
             }
             builder.delete(builder.length() - 1, builder.length());  // delete last '\n'
+            if (log.isDebugEnabled()) {
+            	log.debug(builder.toString());
+            }
 			out.write(builder.toString().getBytes());
 		} catch (IOException e) {
-			log.error(e, e);
+			log.error("Error while opening or writing to output file : ", e);
 		} finally {
 			if (out != null) {
 		        try {
 					out.close();
+					log.info("Output file closed.");
 				} catch (IOException e) {
-					log.error(e, e);
+					log.error("Error while closing output file : ", e);
 				}
 			}
 		}
+	}
+	
+	public static void deleteSaveFile() {
+		deleteSaveFile(LEVEL_FILE_NAME);
+	}
+	
+	public static void deleteSaveFile(String fileName) {
+		if (log.isTraceEnabled()) {
+			log.trace("deleteSaveFile(" + fileName + ")");
+		}
+		
+    	String userHomeDirectory = System.getProperty("user.home");
+    	File fileToDelete = new File(userHomeDirectory + File.separator + fileName);
+    	fileToDelete.delete();
 	}
 	
 	/**
@@ -111,6 +142,9 @@ public class LevelUtil {
 	 * @return level created from the given String
 	 */
 	private static Level createLevelFromString(String str) {
+		if (log.isTraceEnabled()) {
+			log.trace("Level : " + str);
+		}
 		String[] levelParts = str.split(" ");
 		int idealNumberOfMoves = Integer.parseInt(levelParts[0]);
 		int numberOfMoves = Integer.parseInt(levelParts[1]);

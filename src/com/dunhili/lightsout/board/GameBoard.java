@@ -1,5 +1,7 @@
 package com.dunhili.lightsout.board;
 
+import com.dunhili.lightsout.board.TileColor;
+
 import org.apache.log4j.Logger;
 
 /**
@@ -65,6 +67,9 @@ public class GameBoard {
 	 * @return tile at index (x, y) or INVALID if it's outside the board
 	 */
 	public TileColor getTileAt(int x, int y) {
+		if (log.isTraceEnabled()) {
+			log.trace("getTileAt(" + x + ", " + y + ")");
+		}
 		return (inBounds(x, y)) ? board[x][y] : TileColor.INVALID;
 	}
 	
@@ -75,6 +80,10 @@ public class GameBoard {
 	 * @param color color of the tile to change the cell to
 	 */
 	public void setTileAt(int x, int y, TileColor color) {
+		if (log.isTraceEnabled()) {
+			log.trace("setTileAt(" + x + ", " + y + ", " + color + ")");
+		}
+		
 		if (inBounds(x, y) && color != TileColor.INVALID) {
 			board[x][y] = color;
 		}
@@ -85,6 +94,7 @@ public class GameBoard {
 	 * @return board width
 	 */
 	public int getWidth() {
+		log.trace("getWidth()");
 		return board.length;
 	}
 	
@@ -93,6 +103,7 @@ public class GameBoard {
 	 * @return board height
 	 */
 	public int getHeight() {
+		log.trace("getHeight()");
 		return board[0].length;
 	}
 	
@@ -102,6 +113,7 @@ public class GameBoard {
 	 * @return true if all the tiles are black, otherwise returns false
 	 */
 	public boolean isGameWon() {
+		log.trace("isGameWon()");
 		for (int j = 0; j < getHeight(); j++) {
 			for (int i = 0; i < getWidth(); i++) {
 				if (board[i][j] == TileColor.WHITE) {
@@ -110,6 +122,7 @@ public class GameBoard {
 			}
 		}
 		
+		log.debug("User has completed the level.");
 		return true;
 	}
 	
@@ -120,6 +133,7 @@ public class GameBoard {
 	 * @param boardLayout board layout to set the board to
 	 */
 	public void resetBoard(String... boardLayout) {
+		log.trace("resetBoard()");
 		verifyBoardLayout(boardLayout);
 		createBoardFromStrings(boardLayout);
 	}
@@ -131,8 +145,12 @@ public class GameBoard {
 	 * @param y y coordinate to change the tile
 	 */
 	public void swapTiles(int x, int y) {
+		if (log.isTraceEnabled()) {
+			log.trace("swapTiles(" + x + ", " + y + ")");
+		}
 		// ignore swapping tiles if the center tile is outside the board
 		if (!inBounds(x, y)) {
+			log.debug("Outside the boundary.");
 			return;
 		}
 		
@@ -149,6 +167,7 @@ public class GameBoard {
 	 * @return String array representing the board as a list of Strings
 	 */
 	public String[] saveBoard() {
+		log.trace("saveBoard()");
 		String[] rows = new String[getHeight()];
 		for (int j = 0; j < getHeight(); j++) {
 			StringBuilder str = new StringBuilder(getWidth());
@@ -168,6 +187,7 @@ public class GameBoard {
 	 */
 	@Override
 	public String toString() {
+		log.trace("toString()");
 		StringBuilder str = new StringBuilder((getWidth() + 1) * getHeight());   // (n + 1) x m String, extra 1 is for \n
 		String[] rows = saveBoard();
 		for (String row : rows) {
@@ -189,6 +209,9 @@ public class GameBoard {
 	 * @return true if the index is inside the board, otherwise returns false
 	 */
 	private boolean inBounds(int x, int y) {
+		if (log.isTraceEnabled()) {
+			log.trace("inBounds(" + x + ", " + y + ")");
+		}
 		return (x >= 0 && x < getWidth() && y >= 0 && y < getHeight());
 	}
 	
@@ -198,6 +221,10 @@ public class GameBoard {
 	 * @param y y coordinate to change the tile
 	 */
 	private void swapTile(int x, int y) {
+		if (log.isTraceEnabled()) {
+			log.trace("swapTile(" + x + ", " + y + ")");
+		}
+		
 		TileColor tile = getTileAt(x, y);
 		if (tile == TileColor.BLACK) {
 			setTileAt(x, y, TileColor.WHITE);
@@ -212,17 +239,22 @@ public class GameBoard {
 	 * @param boardLayout board layout to verify
 	 */
 	private void verifyBoardLayout(String... boardLayout) {
+		log.trace("verifyBoardLayout()");
 		if (boardLayout == null) {
+			log.error("Board cannot be null.");
 			throw new IllegalArgumentException("Board cannot be null.");
 		} else if (boardLayout.length == 0) {
+			log.error("Board cannot be empty.");
 			throw new IllegalArgumentException("Board cannot be empty.");
 		}
 		
 		int width = boardLayout[0].length();
 		for (String str : boardLayout) {
 			if (str.length() == 0) {
+				log.error("Each row in the board must be non-empty.");
 				throw new IllegalArgumentException("Each row in the board must be non-empty.");
 			} else if (str.length() != width) {
+				log.error("Each row in the board must be the same length.");
 				throw new IllegalArgumentException("Each row in the board must be the same length.");
 			}
 		}
@@ -232,6 +264,7 @@ public class GameBoard {
 	 * Creates a new board that is all WHITE tiles.
 	 */
 	private void createEmptyBoard() {
+		log.trace("createEmptyBoard()");
 		for (int j = 0; j < getHeight(); j++) {
 			for (int i = 0; i < getWidth(); i++) {
 				board[i][j] = TileColor.WHITE;
@@ -245,6 +278,7 @@ public class GameBoard {
 	 * @param boardLayout list of Strings to create the board from
 	 */
 	private void createBoardFromStrings(String... boardLayout) {
+		log.trace("createBoardFromStrings()");
 		for (int j = 0; j < boardLayout.length; j++) {
 			String row = boardLayout[j];
 			char[] cells = row.toCharArray();
@@ -255,6 +289,7 @@ public class GameBoard {
 				} else if (cell == 'B' || cell == 'b') {
 					setTileAt(i, j, TileColor.BLACK);
 				} else {
+					log.error(cell + " is an invaild character for creating the board.");
 					throw new IllegalArgumentException(cell + " is an invaild character for creating the board. Must be"
 							+ "either 'W' or 'B'.");
 				}

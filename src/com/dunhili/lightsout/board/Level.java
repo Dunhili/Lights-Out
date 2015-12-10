@@ -55,6 +55,7 @@ public class Level {
 	 * @return layout of level
 	 */
 	public String[] getLayout() {
+		log.trace("getLayout()");
 		return layout;
 	}
 	
@@ -63,11 +64,16 @@ public class Level {
 	 * @return layout compressed into a single String
 	 */
 	public String getCompressedLayout() {
+		log.trace("getCompressedLayout()");
 		StringBuilder builder = new StringBuilder();
 		for (String row : layout) {
 			builder.append(row + " ");
 		}
 		builder.delete(builder.length() - 1, builder.length());	// delete extra space
+		
+		if (log.isDebugEnabled()) {
+			log.debug("Compressed Level : " + builder.toString());
+		}
 		return builder.toString();
 	}
 	
@@ -76,14 +82,16 @@ public class Level {
 	 * @return ideal number of moves to clear a level
 	 */
 	public int getIdealNumberOfMoves() {
+		log.trace("getIdealNumberOfMoves()");
 		return idealNumberOfMoves;
 	}
 	
 	/**
-	 * Returns true if this level has been completed, otherwise false.
+	 * Returns true if the level has been completed, otherwise false.
 	 * @return true if the level has been completed, otherwise false
 	 */
 	public boolean isCompleted() {
+		log.trace("isCompleted()");
 		return numberOfMoves > 0;
 	}
 	
@@ -92,6 +100,7 @@ public class Level {
 	 * @return number of moves to clear the level
 	 */
 	public int getNumberOfMoves() {
+		log.trace("getNumberOfMoves()");
 		return numberOfMoves;
 	}
 	
@@ -100,6 +109,9 @@ public class Level {
 	 * @param numberOfMoves current number of moves to clear level
 	 */
 	public void setNumberOfMoves(int numberOfMoves) {
+		if (log.isTraceEnabled()) {
+			log.trace("setNumberOfMoves(" + numberOfMoves + ")");
+		}
 		this.numberOfMoves = numberOfMoves;
 	}
 	
@@ -109,6 +121,22 @@ public class Level {
 	 * @return true if the user has a perfect score, otherwise returns false
 	 */
 	public boolean hasPerfectScore() {
+		log.trace("hasPerfectScore()");
 		return (getIdealNumberOfMoves() == getNumberOfMoves()) && isCompleted();
+	}
+	
+	/**
+	 * Returns a String representation of the Level's layout.
+	 * @return String representation of the Level
+	 */
+	@Override
+	public String toString() {
+		log.trace("toString()");
+		StringBuilder builder = new StringBuilder();
+		for (String row : getLayout()) {
+			builder.append(row + "\n");
+		}
+		builder.delete(builder.length() - 1, builder.length());
+		return builder.toString();
 	}
 }

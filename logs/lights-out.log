@@ -1,0 +1,269 @@
+2015-10-20 10:30:05 INFO  LevelUtil:50 - Reading in levels...
+2015-10-20 10:30:05 INFO  LevelUtil:56 - Done reading levels.
+2015-10-20 10:30:05 INFO  LevelUtil:63 - Reader closed successfully.
+2015-10-20 10:30:05 INFO  GameScreen:43 - Starting Lights Out game...
+2015-10-20 10:34:47 INFO  LevelUtil:50 - Reading in levels...
+2015-10-20 10:34:47 INFO  LevelUtil:56 - Done reading levels.
+2015-10-20 10:34:47 INFO  LevelUtil:63 - Reader closed successfully.
+2015-10-20 10:34:47 INFO  GameScreen:42 - Starting Lights Out game...
+2015-10-20 11:10:30 INFO  LevelUtil:50 - Reading in levels...
+2015-10-20 11:10:30 INFO  LevelUtil:56 - Done reading levels.
+2015-10-20 11:10:30 INFO  LevelUtil:63 - Reader closed successfully.
+2015-10-20 11:10:30 INFO  GameScreen:24 - Starting Lights Out game...
+2015-10-20 11:10:30 INFO  GameScreen:33 - Displaying title screen.
+2015-10-20 11:11:14 INFO  LevelUtil:50 - Reading in levels...
+2015-10-20 11:11:14 INFO  LevelUtil:56 - Done reading levels.
+2015-10-20 11:11:14 INFO  LevelUtil:63 - Reader closed successfully.
+2015-10-20 11:11:14 INFO  GameScreen:24 - Starting Lights Out game...
+2015-10-20 11:11:14 INFO  GameScreen:33 - Displaying title screen.
+2015-10-20 11:12:29 INFO  LevelUtil:50 - Reading in levels...
+2015-10-20 11:12:29 INFO  LevelUtil:56 - Done reading levels.
+2015-10-20 11:12:29 INFO  LevelUtil:63 - Reader closed successfully.
+2015-10-20 11:12:29 INFO  GameScreen:25 - Starting Lights Out game...
+2015-10-20 11:12:29 INFO  GameScreen:34 - Displaying title screen.
+2015-10-20 11:12:42 INFO  LevelUtil:50 - Reading in levels...
+2015-10-20 11:12:42 INFO  LevelUtil:56 - Done reading levels.
+2015-10-20 11:12:42 INFO  LevelUtil:63 - Reader closed successfully.
+2015-10-20 11:12:42 INFO  GameScreen:25 - Starting Lights Out game...
+2015-10-20 11:12:42 INFO  GameScreen:34 - Displaying title screen.
+2015-10-20 11:13:24 INFO  LevelUtil:50 - Reading in levels...
+2015-10-20 11:13:24 INFO  LevelUtil:56 - Done reading levels.
+2015-10-20 11:13:24 INFO  LevelUtil:63 - Reader closed successfully.
+2015-10-20 11:13:24 INFO  GameScreen:25 - Starting Lights Out game...
+2015-10-20 11:13:25 INFO  GameScreen:34 - Displaying title screen.
+2015-10-20 11:13:25 INFO  GameScreen:46 - Done creating title screen.
+2015-10-20 11:14:04 INFO  LevelUtil:50 - Reading in levels...
+2015-10-20 11:14:04 INFO  LevelUtil:56 - Done reading levels.
+2015-10-20 11:14:04 INFO  LevelUtil:63 - Reader closed successfully.
+2015-10-20 11:14:04 INFO  GameScreen:25 - Starting Lights Out game...
+2015-10-20 11:14:04 INFO  GameScreen:34 - Displaying title screen.
+2015-10-20 11:14:04 INFO  GameScreen:47 - Done creating title screen.
+2015-10-20 11:16:27 INFO  LevelUtil:50 - Reading in levels...
+2015-10-20 11:16:27 INFO  LevelUtil:56 - Done reading levels.
+2015-10-20 11:16:27 INFO  LevelUtil:63 - Reader closed successfully.
+2015-10-20 11:16:27 INFO  GameScreen:26 - Starting Lights Out game...
+2015-10-20 11:16:27 INFO  GameScreen:41 - Displaying title screen.
+2015-10-20 11:16:28 INFO  GameScreen:57 - Done creating title screen.
+2015-10-20 11:16:45 INFO  LevelUtil:50 - Reading in levels...
+2015-10-20 11:16:45 INFO  LevelUtil:56 - Done reading levels.
+2015-10-20 11:16:45 INFO  LevelUtil:63 - Reader closed successfully.
+2015-10-20 11:16:45 INFO  GameScreen:26 - Starting Lights Out game...
+2015-10-20 11:16:46 INFO  GameScreen:41 - Displaying title screen.
+2015-10-20 11:16:46 INFO  GameScreen:57 - Done creating title screen.
+2015-10-20 11:17:16 INFO  LevelUtil:50 - Reading in levels...
+2015-10-20 11:17:16 INFO  LevelUtil:56 - Done reading levels.
+2015-10-20 11:17:16 INFO  LevelUtil:63 - Reader closed successfully.
+2015-10-20 11:17:16 INFO  GameScreen:26 - Starting Lights Out game...
+2015-10-20 11:17:16 INFO  GameScreen:42 - Displaying title screen.
+2015-10-20 11:17:16 INFO  GameScreen:58 - Done creating title screen.
+2015-10-20 11:22:38 INFO  LevelUtil:50 - Reading in levels...
+2015-10-20 11:22:38 INFO  LevelUtil:56 - Done reading levels.
+2015-10-20 11:22:38 INFO  LevelUtil:63 - Reader closed successfully.
+2015-10-20 11:22:38 INFO  GameScreen:67 - Starting Lights Out game...
+2015-10-20 11:22:38 INFO  GameScreen:53 - Displaying title screen.
+2015-10-20 11:22:38 INFO  GameScreen:63 - Done creating title screen.
+2015-10-20 11:22:40 INFO  GameScreen:33 - begin
+2015-10-20 11:22:40 INFO  GameScreen:35 - Begin clicked.
+2015-10-20 11:46:06 INFO  LevelUtil:50 - Reading in levels...
+2015-10-20 11:46:06 INFO  LevelUtil:56 - Done reading levels.
+2015-10-20 11:46:06 INFO  LevelUtil:63 - Reader closed successfully.
+2015-10-20 11:46:06 INFO  GameScreen:82 - Starting Lights Out game...
+2015-10-20 11:46:07 INFO  GameScreen:61 - Displaying title screen.
+2015-10-20 11:46:07 INFO  GameScreen:78 - Done creating title screen.
+2015-10-20 11:46:22 INFO  LevelUtil:94 - Output file opened.
+2015-10-20 11:46:22 DEBUG Level:75 - Compressed Level : BWW WBW WWB
+2015-10-20 11:46:22 DEBUG Level:75 - Compressed Level : BWW BBB BBW
+2015-10-20 11:46:22 DEBUG Level:75 - Compressed Level : WWW WWW WWW
+2015-10-20 11:46:22 DEBUG Level:75 - Compressed Level : WWW BBB BWB
+2015-10-20 11:46:22 DEBUG Level:75 - Compressed Level : WBW BWB BBB
+2015-10-20 11:46:22 DEBUG Level:75 - Compressed Level : WBW BBB BWB
+2015-10-20 11:46:22 DEBUG Level:75 - Compressed Level : BBWB BBWB WBBB
+2015-10-20 11:46:22 DEBUG Level:75 - Compressed Level : BBWB WWWW BWBB
+2015-10-20 11:46:22 DEBUG Level:75 - Compressed Level : BBWB BBBW BWWB
+2015-10-20 11:46:22 DEBUG Level:75 - Compressed Level : WWBB BWBB BBBB
+2015-10-20 11:46:22 DEBUG Level:75 - Compressed Level : BBBW BBBW WBBB
+2015-10-20 11:46:22 DEBUG Level:75 - Compressed Level : BWWBWW BWWBWW BBWBWB BBBWWB BWWBWB
+2015-10-20 11:46:22 DEBUG LevelUtil:103 - 2 0 BWW WBW WWB
+4 0 BWW BBB BBW
+5 0 WWW WWW WWW
+7 0 WWW BBB BWB
+5 0 WBW BWB BBB
+8 0 WBW BBB BWB
+8 0 BBWB BBWB WBBB
+4 0 BBWB WWWW BWBB
+6 0 BBWB BBBW BWWB
+6 0 WWBB BWBB BBBB
+5 0 BBBW BBBW WBBB
+10 0 BWWBWW BWWBWW BBWBWB BBBWWB BWWBWB
+2015-10-20 11:46:22 INFO  LevelUtil:112 - Output file closed.
+2015-10-20 11:47:31 INFO  LevelUtil:50 - Reading in levels...
+2015-10-20 11:47:31 INFO  LevelUtil:56 - Done reading levels.
+2015-10-20 11:47:31 INFO  LevelUtil:63 - Reader closed successfully.
+2015-10-20 11:47:31 INFO  GameScreen:88 - Starting Lights Out game...
+2015-10-20 11:47:31 INFO  GameScreen:67 - Displaying title screen.
+2015-10-20 11:47:31 INFO  GameScreen:84 - Done creating title screen.
+2015-10-20 11:47:37 INFO  LevelUtil:94 - Output file opened.
+2015-10-20 11:47:37 DEBUG Level:75 - Compressed Level : BWW WBW WWB
+2015-10-20 11:47:37 DEBUG Level:75 - Compressed Level : BWW BBB BBW
+2015-10-20 11:47:37 DEBUG Level:75 - Compressed Level : WWW WWW WWW
+2015-10-20 11:47:37 DEBUG Level:75 - Compressed Level : WWW BBB BWB
+2015-10-20 11:47:37 DEBUG Level:75 - Compressed Level : WBW BWB BBB
+2015-10-20 11:47:37 DEBUG Level:75 - Compressed Level : WBW BBB BWB
+2015-10-20 11:47:37 DEBUG Level:75 - Compressed Level : BBWB BBWB WBBB
+2015-10-20 11:47:37 DEBUG Level:75 - Compressed Level : BBWB WWWW BWBB
+2015-10-20 11:47:37 DEBUG Level:75 - Compressed Level : BBWB BBBW BWWB
+2015-10-20 11:47:37 DEBUG Level:75 - Compressed Level : WWBB BWBB BBBB
+2015-10-20 11:47:37 DEBUG Level:75 - Compressed Level : BBBW BBBW WBBB
+2015-10-20 11:47:37 DEBUG Level:75 - Compressed Level : BWWBWW BWWBWW BBWBWB BBBWWB BWWBWB
+2015-10-20 11:47:37 DEBUG LevelUtil:103 - 2 0 BWW WBW WWB
+4 0 BWW BBB BBW
+5 0 WWW WWW WWW
+7 0 WWW BBB BWB
+5 0 WBW BWB BBB
+8 0 WBW BBB BWB
+8 0 BBWB BBWB WBBB
+4 0 BBWB WWWW BWBB
+6 0 BBWB BBBW BWWB
+6 0 WWBB BWBB BBBB
+5 0 BBBW BBBW WBBB
+10 0 BWWBWW BWWBWW BBWBWB BBBWWB BWWBWB
+2015-10-20 11:47:37 INFO  LevelUtil:112 - Output file closed.
+2015-10-20 11:47:56 INFO  LevelUtil:50 - Reading in levels...
+2015-10-20 11:47:56 INFO  LevelUtil:56 - Done reading levels.
+2015-10-20 11:47:56 INFO  LevelUtil:63 - Reader closed successfully.
+2015-10-20 11:47:56 INFO  GameScreen:89 - Starting Lights Out game...
+2015-10-20 11:47:57 INFO  GameScreen:68 - Displaying title screen.
+2015-10-20 11:47:57 INFO  GameScreen:85 - Done creating title screen.
+2015-10-20 11:47:59 INFO  GameScreen:61 - setting up game widgets...
+2015-10-20 11:48:06 INFO  LevelUtil:94 - Output file opened.
+2015-10-20 11:48:06 DEBUG Level:75 - Compressed Level : BWW WBW WWB
+2015-10-20 11:48:06 DEBUG Level:75 - Compressed Level : BWW BBB BBW
+2015-10-20 11:48:06 DEBUG Level:75 - Compressed Level : WWW WWW WWW
+2015-10-20 11:48:06 DEBUG Level:75 - Compressed Level : WWW BBB BWB
+2015-10-20 11:48:06 DEBUG Level:75 - Compressed Level : WBW BWB BBB
+2015-10-20 11:48:06 DEBUG Level:75 - Compressed Level : WBW BBB BWB
+2015-10-20 11:48:06 DEBUG Level:75 - Compressed Level : BBWB BBWB WBBB
+2015-10-20 11:48:06 DEBUG Level:75 - Compressed Level : BBWB WWWW BWBB
+2015-10-20 11:48:06 DEBUG Level:75 - Compressed Level : BBWB BBBW BWWB
+2015-10-20 11:48:06 DEBUG Level:75 - Compressed Level : WWBB BWBB BBBB
+2015-10-20 11:48:06 DEBUG Level:75 - Compressed Level : BBBW BBBW WBBB
+2015-10-20 11:48:06 DEBUG Level:75 - Compressed Level : BWWBWW BWWBWW BBWBWB BBBWWB BWWBWB
+2015-10-20 11:48:06 DEBUG LevelUtil:103 - 2 0 BWW WBW WWB
+4 0 BWW BBB BBW
+5 0 WWW WWW WWW
+7 0 WWW BBB BWB
+5 0 WBW BWB BBB
+8 0 WBW BBB BWB
+8 0 BBWB BBWB WBBB
+4 0 BBWB WWWW BWBB
+6 0 BBWB BBBW BWWB
+6 0 WWBB BWBB BBBB
+5 0 BBBW BBBW WBBB
+10 0 BWWBWW BWWBWW BBWBWB BBBWWB BWWBWB
+2015-10-20 11:48:06 INFO  LevelUtil:112 - Output file closed.
+2015-10-20 11:49:10 INFO  LevelUtil:50 - Reading in levels...
+2015-10-20 11:49:10 INFO  LevelUtil:56 - Done reading levels.
+2015-10-20 11:49:10 INFO  LevelUtil:63 - Reader closed successfully.
+2015-10-20 11:49:10 INFO  GameScreen:87 - Starting Lights Out game...
+2015-10-20 11:49:10 INFO  GameScreen:66 - Displaying title screen.
+2015-10-20 11:49:10 INFO  GameScreen:42 - setting up title screen widgets...
+2015-10-20 11:49:10 INFO  GameScreen:53 - done setting up title screen.
+2015-10-20 11:49:11 INFO  GameScreen:83 - Done creating title screen.
+2015-10-20 11:49:13 INFO  GameScreen:57 - setting up game widgets...
+2015-10-20 11:49:13 INFO  GameScreen:62 - done setting up game.
+2015-10-20 11:49:17 INFO  LevelUtil:94 - Output file opened.
+2015-10-20 11:49:17 DEBUG Level:75 - Compressed Level : BWW WBW WWB
+2015-10-20 11:49:17 DEBUG Level:75 - Compressed Level : BWW BBB BBW
+2015-10-20 11:49:17 DEBUG Level:75 - Compressed Level : WWW WWW WWW
+2015-10-20 11:49:17 DEBUG Level:75 - Compressed Level : WWW BBB BWB
+2015-10-20 11:49:17 DEBUG Level:75 - Compressed Level : WBW BWB BBB
+2015-10-20 11:49:17 DEBUG Level:75 - Compressed Level : WBW BBB BWB
+2015-10-20 11:49:17 DEBUG Level:75 - Compressed Level : BBWB BBWB WBBB
+2015-10-20 11:49:17 DEBUG Level:75 - Compressed Level : BBWB WWWW BWBB
+2015-10-20 11:49:17 DEBUG Level:75 - Compressed Level : BBWB BBBW BWWB
+2015-10-20 11:49:17 DEBUG Level:75 - Compressed Level : WWBB BWBB BBBB
+2015-10-20 11:49:17 DEBUG Level:75 - Compressed Level : BBBW BBBW WBBB
+2015-10-20 11:49:17 DEBUG Level:75 - Compressed Level : BWWBWW BWWBWW BBWBWB BBBWWB BWWBWB
+2015-10-20 11:49:17 DEBUG LevelUtil:103 - 2 0 BWW WBW WWB
+4 0 BWW BBB BBW
+5 0 WWW WWW WWW
+7 0 WWW BBB BWB
+5 0 WBW BWB BBB
+8 0 WBW BBB BWB
+8 0 BBWB BBWB WBBB
+4 0 BBWB WWWW BWBB
+6 0 BBWB BBBW BWWB
+6 0 WWBB BWBB BBBB
+5 0 BBBW BBBW WBBB
+10 0 BWWBWW BWWBWW BBWBWB BBBWWB BWWBWB
+2015-10-20 11:49:17 INFO  LevelUtil:112 - Output file closed.
+2015-10-20 11:50:13 INFO  LevelUtil:50 - Reading in levels...
+2015-10-20 11:50:13 INFO  LevelUtil:56 - Done reading levels.
+2015-10-20 11:50:13 INFO  LevelUtil:63 - Reader closed successfully.
+2015-10-20 11:50:13 INFO  GameScreen:92 - Starting Lights Out game...
+2015-10-20 11:50:13 INFO  GameScreen:71 - Displaying title screen.
+2015-10-20 11:50:13 INFO  GameScreen:42 - setting up title screen widgets...
+2015-10-20 11:50:13 INFO  GameScreen:56 - done setting up title screen.
+2015-10-20 11:50:13 INFO  GameScreen:88 - Done creating title screen.
+2015-10-20 11:50:14 INFO  GameScreen:60 - setting up game widgets...
+2015-10-20 11:50:14 INFO  GameScreen:67 - done setting up game.
+2015-10-20 11:50:16 INFO  LevelUtil:94 - Output file opened.
+2015-10-20 11:50:16 DEBUG Level:75 - Compressed Level : BWW WBW WWB
+2015-10-20 11:50:16 DEBUG Level:75 - Compressed Level : BWW BBB BBW
+2015-10-20 11:50:16 DEBUG Level:75 - Compressed Level : WWW WWW WWW
+2015-10-20 11:50:16 DEBUG Level:75 - Compressed Level : WWW BBB BWB
+2015-10-20 11:50:16 DEBUG Level:75 - Compressed Level : WBW BWB BBB
+2015-10-20 11:50:16 DEBUG Level:75 - Compressed Level : WBW BBB BWB
+2015-10-20 11:50:16 DEBUG Level:75 - Compressed Level : BBWB BBWB WBBB
+2015-10-20 11:50:16 DEBUG Level:75 - Compressed Level : BBWB WWWW BWBB
+2015-10-20 11:50:16 DEBUG Level:75 - Compressed Level : BBWB BBBW BWWB
+2015-10-20 11:50:16 DEBUG Level:75 - Compressed Level : WWBB BWBB BBBB
+2015-10-20 11:50:16 DEBUG Level:75 - Compressed Level : BBBW BBBW WBBB
+2015-10-20 11:50:16 DEBUG Level:75 - Compressed Level : BWWBWW BWWBWW BBWBWB BBBWWB BWWBWB
+2015-10-20 11:50:16 DEBUG LevelUtil:103 - 2 0 BWW WBW WWB
+4 0 BWW BBB BBW
+5 0 WWW WWW WWW
+7 0 WWW BBB BWB
+5 0 WBW BWB BBB
+8 0 WBW BBB BWB
+8 0 BBWB BBWB WBBB
+4 0 BBWB WWWW BWBB
+6 0 BBWB BBBW BWWB
+6 0 WWBB BWBB BBBB
+5 0 BBBW BBBW WBBB
+10 0 BWWBWW BWWBWW BBWBWB BBBWWB BWWBWB
+2015-10-20 11:50:16 INFO  LevelUtil:112 - Output file closed.
+2015-10-20 14:00:47 INFO  LevelUtil:50 - Reading in levels...
+2015-10-20 14:00:47 INFO  LevelUtil:56 - Done reading levels.
+2015-10-20 14:00:47 INFO  LevelUtil:63 - Reader closed successfully.
+2015-10-20 14:00:47 INFO  GameScreen:106 - Starting Lights Out game...
+2015-10-20 14:00:47 INFO  GameScreen:85 - Displaying title screen.
+2015-10-20 14:00:47 INFO  GameScreen:54 - setting up title screen widgets...
+2015-10-20 14:00:47 INFO  GameScreen:66 - done setting up title screen.
+2015-10-20 14:00:47 INFO  GameScreen:102 - Done creating title screen.
+2015-10-20 14:00:50 INFO  LevelUtil:94 - Output file opened.
+2015-10-20 14:00:50 DEBUG Level:75 - Compressed Level : BWW WBW WWB
+2015-10-20 14:00:50 DEBUG Level:75 - Compressed Level : BWW BBB BBW
+2015-10-20 14:00:50 DEBUG Level:75 - Compressed Level : WWW WWW WWW
+2015-10-20 14:00:50 DEBUG Level:75 - Compressed Level : WWW BBB BWB
+2015-10-20 14:00:50 DEBUG Level:75 - Compressed Level : WBW BWB BBB
+2015-10-20 14:00:50 DEBUG Level:75 - Compressed Level : WBW BBB BWB
+2015-10-20 14:00:50 DEBUG Level:75 - Compressed Level : BBWB BBWB WBBB
+2015-10-20 14:00:50 DEBUG Level:75 - Compressed Level : BBWB WWWW BWBB
+2015-10-20 14:00:50 DEBUG Level:75 - Compressed Level : BBWB BBBW BWWB
+2015-10-20 14:00:50 DEBUG Level:75 - Compressed Level : WWBB BWBB BBBB
+2015-10-20 14:00:50 DEBUG Level:75 - Compressed Level : BBBW BBBW WBBB
+2015-10-20 14:00:50 DEBUG Level:75 - Compressed Level : BWWBWW BWWBWW BBWBWB BBBWWB BWWBWB
+2015-10-20 14:00:50 DEBUG LevelUtil:103 - 2 0 BWW WBW WWB
+4 0 BWW BBB BBW
+5 0 WWW WWW WWW
+7 0 WWW BBB BWB
+5 0 WBW BWB BBB
+8 0 WBW BBB BWB
+8 0 BBWB BBWB WBBB
+4 0 BBWB WWWW BWBB
+6 0 BBWB BBBW BWWB
+6 0 WWBB BWBB BBBB
+5 0 BBBW BBBW WBBB
+10 0 BWWBWW BWWBWW BBWBWB BBBWWB BWWBWB
+2015-10-20 14:00:50 INFO  LevelUtil:112 - Output file closed.
